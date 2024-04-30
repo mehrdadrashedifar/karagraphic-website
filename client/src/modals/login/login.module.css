@@ -1,0 +1,37 @@
+.container{
+    background-color:rgb(223, 223, 223);
+    width: 500px;
+    height: 500px;
+    padding: 2vw;
+    box-sizing: border-box;
+    display:flex;
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.midlle{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.midlleSign{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    /* gap: 10px; */
+    /* margin-bottom: 20px; */
+}
+/* .midlleLogin2 input{
+    display: flex;
+    width: 100%;
+} */
+.validationP{
+    color: brown;
+}

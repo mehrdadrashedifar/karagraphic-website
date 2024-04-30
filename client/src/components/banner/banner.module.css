@@ -1,0 +1,54 @@
+.banner{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    column-gap: .5rem;
+    padding:0rem 10rem;
+    /* margin: 20px 2rem; */
+
+}
+
+.changingBanner{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+}
+.changingBanner img {
+    border-radius: 10px;
+}
+.nextBtn{
+    position: absolute;
+    top:50%;
+    border: none;
+    right: .5rem;
+    background-color: transparent;
+}
+.prevBtn{
+    position: absolute;
+    top:50%;
+    border: none;
+    left: .5rem;
+    background-color: transparent;
+}
+/* .nextBtn:first-child :hover{
+    color:'red';
+} */
+.prevBtn:hover{
+    color: brown;
+}
+.news{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(227, 228, 228);
+    padding:0px .5rem;
+    border-radius: 10px;
+}
+.news h3{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}

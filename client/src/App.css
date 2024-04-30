@@ -1,0 +1,9 @@
+body{
+    direction: rtl;
+}
+.stickyBtn {
+    position: fixed;
+    bottom: 20px;
+    color: red;
+    font-size: x-large;
+}

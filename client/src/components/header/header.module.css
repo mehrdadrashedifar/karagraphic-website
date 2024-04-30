@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px ;
+}
+.headMenu{
+    display:flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.searchBox{
+    display: none;
+}
+.searchBox input{
+    padding: .5vw .5vw .5vw 10vw;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.searchBox button{
+    padding: .5vw;
+    background-color: rgb(183, 46, 46);
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(242, 243, 245);
+}
+.searchBox button:hover{
+    background-color: rgb(121, 48, 48);
+}
